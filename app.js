@@ -1,10 +1,9 @@
 Ext.application({
-    name: 'Sencha',
+    name: 'DynCntrl',
+
+    views: ['Main'],
 
     launch: function() {
-        Ext.create('Ext.Panel', {
-            fullscreen: true,
-            html: 'Hello World'
-        });
+        Ext.create('DynCntrl.view.Main');
     }
 });
