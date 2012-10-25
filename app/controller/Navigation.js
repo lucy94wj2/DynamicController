@@ -1,6 +1,6 @@
 /*
  * Navigation controller. This controller will be load additional
- * controllers and calls it's method specified in tapped list item.
+ * controller and calls it's method specified in tapped list item.
  * See DC.model.MenuItem for specifying additional controller & it's method name.
  */
 
