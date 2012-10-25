@@ -1,4 +1,4 @@
-dyncntrl
+DynamicController
 ========
 
-Dynamic loading of Controllers on Sencha Touch 2
+Dynamic loading of Controllers on Sencha Touch 2 app
