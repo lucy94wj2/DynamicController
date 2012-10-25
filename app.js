@@ -1,9 +1,14 @@
+/* 
+ * Application's entry point, see source files for more information.
+ */
 Ext.application({
-    name: 'DynCntrl',
+    name: 'DC',
 
+    controllers: ['Navigation'],
+    models: ['MenuItem'],
     views: ['Main'],
 
     launch: function() {
-        Ext.create('DynCntrl.view.Main');
+        Ext.create('DC.view.Main');
     }
 });
